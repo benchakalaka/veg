@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Veg way</string>
+	<string name="list_products">List of Products</string>
+	<string name="your_desire_descr">Your weackneses</string>
+	<string name="microelements">Microelements</string>
+	
+	<string name="action_settings">settings</string>
+
+	<string name="skvalen">Сквален</string>
+	<string name="vitamin_c"></string>
+	<string name="zink">Цинк (Zn, Zincum)</string>
+	<string name="cromium">Хром (Cr, Cromium)</string>
+	<string name="chlorine">Хлор (Cl, Chlorine)</string>
+	<string name="flour">Фтор (F, Fluor)</string>
+	<string name="phosphorus">Фосфор (P, Phosphorus)</string>
+	<string name="sulphur">Сера (S, Sulphur)</string>
+	<string name="selenium">Селен (Se, Selenium)</string>
+	<string name="niccolum">Никель (Ni, Niccolum)</string>
+	<string name="natrium">Натрий (Na, Natrium)</string>
+	<string name="Molybdenum">Молибден (Mo, Molybdenum)</string>
+	<string name="cuprum">Медь (Cu, Cuprum)</string>
+	<string name="manganum">Марганец (Mn, Manganum)</string>
+	<string name="magnesium">Магний (Mg, Magnesium)</string>
+	<string name="cobaltum">Кобальт (Co, Cobaltum)</string>
+	<string name="oxygenium">Кислород (O, Oxygenium)</string>
+	<string name="calcium">Кальций (Ca, Calcium)</string>
+	<string name="kalium">Калий (K, Kalium)</string>
+	<string name="lodum">Йод (I, Iodum)</string>
+	<string name="ferrum">Железо (Fe, Ferrum)</string>
+	<string name="vanadium">Ванадий (V, Vanadium)</string>
+	<string name="bromum">Бром (Br, Bromum)</string>
+	
+	
+	<string name="skvalen_s">Сквален</string>
+	<string name="vitamin_c_s"></string>
+	<string name="zink_s">Цинк (Zn, Zincum)</string>
+	<string name="cromium_s">Хром (Cr, Cromium)</string>
+	<string name="chlorine_s">Хлор (Cl, Chlorine)</string>
+	<string name="flour_s">Фтор (F, Fluor)</string>
+	<string name="phosphorus_s">Фосфор (P, Phosphorus)</string>
+	<string name="sulphur_s">Сера (S, Sulphur)</string>
+	<string name="selenium_s">Селен (Se, Selenium)</string>
+	<string name="niccolum_s">Никель (Ni, Niccolum)</string>
+	<string name="natrium_s">Натрий (Na, Natrium)</string>
+	<string name="Molybdenum_s">Молибден (Mo, Molybdenum)</string>
+	<string name="cuprum_s">Медь (Cu, Cuprum)</string>
+	<string name="manganum_s">Марганец (Mn, Manganum)</string>
+	<string name="magnesium_s">Магний (Mg, Magnesium)</string>
+	<string name="cobaltum_s">Кобальт (Co, Cobaltum)</string>
+	<string name="oxygenium_s">Кислород (O, Oxygenium)</string>
+	<string name="calcium_s">Кальций (Ca, Calcium)</string>
+	<string name="kalium_s">Калий (K, Kalium)</string>
+	<string name="lodum_s">Йод (I, Iodum)</string>
+	<string name="ferrum_s">Железо (Fe, Ferrum)</string>
+	<string name="vanadium_s">Ванадий (V, Vanadium)</string>
+	<string name="bromum_s">Бром (Br, Bromum)</string>
+
+</resources>

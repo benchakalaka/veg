@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/container"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/t"
+	android:orientation="vertical"
+	tools:context="com.karpachev.activities.ActivityStart"
+	tools:ignore="MergeRootFrame" >
+
+    <ImageView
+    	android:id="@+id/imageView1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/veg" />
+
+    <Button
+    	android:id="@+id/btnProductsList"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="5dp"
+    	android:background="@drawable/blue_flat_item"
+    	android:typeface="sans"
+    	android:textColor="@android:color/white"
+    	android:text="@string/list_products" />
+    
+     <Button
+    	android:id="@+id/btnDesireDescritpion"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="5dp"
+    	android:background="@drawable/blue_flat_item"
+    	android:typeface="sans"
+    	android:textColor="@android:color/white"
+    	android:text="@string/your_desire_descr" />
+     
+      <Button
+    	android:id="@+id/btnMicroelements"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="5dp"
+    	android:background="@drawable/blue_flat_item"
+    	android:typeface="sans"
+    	android:textColor="@android:color/white"
+    	android:text="@string/microelements" />
+      
+       <Button
+    	android:id="@+id/button1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="5dp"
+    	android:textStyle="bold"
+    	android:background="@drawable/blue_flat_item"
+    	android:textColor="@android:color/white"
+    	android:text="Button" />
+
+</LinearLayout>
+

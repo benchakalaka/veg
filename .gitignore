@@ -1,0 +1,7 @@
+#--------------------- configuration section -------------------------------------------#
+
+*.bak # ignore all files with ".bak" extension
+bin/
+project.properties
+.apt_generated/
+gen/
