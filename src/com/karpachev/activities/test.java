@@ -17,7 +17,6 @@ import android.widget.LinearLayout;
 
 import com.threed.jpct.Camera;
 import com.threed.jpct.FrameBuffer;
-import com.threed.jpct.Interact2D;
 import com.threed.jpct.Light;
 import com.threed.jpct.Loader;
 import com.threed.jpct.Logger;
@@ -131,13 +130,13 @@ public class test extends FragmentActivity {
                touchTurn = 0;
                touchTurnUp = 0;
 
-               SimpleVector dir = Interact2D.reproject2D3D(cam, fb, (int) me.getX(), (int) me.getY());
-               SimpleVector svTrysu = new SimpleVector();
-               obj[1].getXAxis(svTrysu);
-               obj[1].getYAxis(svTrysu);
-               obj[1].getZAxis(svTrysu);
+               // SimpleVector dir = Interact2D.reproject2D3D(cam, fb, (int) me.getX(), (int) me.getY());
+               // SimpleVector svTrysu = new SimpleVector();
+               // obj[1].getXAxis(svTrysu);
+               // obj[1].getYAxis(svTrysu);
+               // obj[1].getZAxis(svTrysu);
 
-               Logger.log(String.valueOf("AAAAAAAAAAAAAAAAAAAAAAAAAAAAA : " + svTrysu.distance(dir)));
+               // Logger.log(String.valueOf("AAAAAAAAAAAAAAAAAAAAAAAAAAAAA : " + svTrysu.distance(dir)));
 
                // Object3D picked = world.getObject(0);
 
@@ -219,8 +218,8 @@ public class test extends FragmentActivity {
                     InputStream stream;
 
                     try {
-                         stream = getApplicationContext().getAssets().open("man.3ds");
-                         obj = Loader.load3DS(stream, 4f);
+                         stream = getApplicationContext().getAssets().open("jessy2.3ds");
+                         obj = Loader.load3DS(stream, 10f);
 
                          for ( Object3D element : obj ) {
                               element.calcTextureWrapSpherical();

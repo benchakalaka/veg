@@ -8,11 +8,11 @@ import org.androidannotations.annotations.res.StringArrayRes;
 import android.app.Activity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.LinearLayout; 
+import android.widget.LinearLayout;
 
 import com.karpachev.custom.ItemMicroelementView;
 import com.karpachev.custom.ItemMicroelementView_;
- 
+
 @EActivity ( R.layout.activity_microelements ) public class ActivityMicroelemnts extends Activity {
 
      @ViewById LinearLayout                                         llMicroelementsRoot;
@@ -33,7 +33,6 @@ import com.karpachev.custom.ItemMicroelementView_;
                Animation a = AnimationUtils.loadAnimation(this, R.anim.fade_in);
                a.setStartOffset(i * 100);
                view.startAnimation(a);
-
           }
      }
 }

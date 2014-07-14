@@ -32,6 +32,18 @@
 			android:name="com.karpachev.activities.ActivityMicroelemnts_"
 			android:label="@string/app_name" >
 		</activity>
+		
+		<activity
+			android:name="com.karpachev.activities.ActivityVitamins_"
+			android:label="@string/app_name" >
+		</activity>
+		
+		<activity
+			android:name="com.karpachev.activities.ActivityYourWeacknesses_"
+			android:label="@string/app_name" >
+		</activity>
+		
+		
 	</application>
 
 </manifest>

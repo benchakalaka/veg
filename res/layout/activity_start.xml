@@ -25,7 +25,7 @@
     	android:text="@string/list_products" />
     
      <Button
-    	android:id="@+id/btnDesireDescritpion"
+    	android:id="@+id/btnYourWeacknesses"
     	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
     	android:layout_margin="5dp"
@@ -45,7 +45,7 @@
     	android:text="@string/microelements" />
       
        <Button
-    	android:id="@+id/button1"
+    	android:id="@+id/btnVitamins"
     	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
     	android:layout_margin="5dp"
