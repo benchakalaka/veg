@@ -5,15 +5,15 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 import org.androidannotations.annotations.res.StringArrayRes;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.LinearLayout;
+import android.widget.LinearLayout; 
 
 import com.karpachev.custom.ItemMicroelementView;
 import com.karpachev.custom.ItemMicroelementView_;
-
-@EActivity ( R.layout.activity_microelements ) public class ActivityMicroelemnts extends ActionBarActivity {
+ 
+@EActivity ( R.layout.activity_microelements ) public class ActivityMicroelemnts extends Activity {
 
      @ViewById LinearLayout                                         llMicroelementsRoot;
      @StringArrayRes ( R.array.microelements_names ) String[]       microelementsNames;

@@ -6,12 +6,12 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 import org.androidannotations.annotations.res.AnimationRes;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.view.animation.Animation;
 import android.widget.Button;
 
-@EActivity ( R.layout.activity_start ) public class ActivityStart extends ActionBarActivity {
+@EActivity ( R.layout.activity_start ) public class ActivityStart extends Activity {
 
      @ViewById Button                         btnProductsList;
      @ViewById Button                         btnDesireDescritpion;

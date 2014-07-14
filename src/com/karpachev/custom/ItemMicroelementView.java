@@ -8,7 +8,6 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -16,7 +15,6 @@ import com.karpachev.activities.R;
 
 @EViewGroup ( R.layout.list_microelement ) public class ItemMicroelementView extends RelativeLayout implements android.view.View.OnClickListener {
 
-     @ViewById public ImageView                                    image;
      @ViewById public TextView                                     twDescription;
      @ViewById public TextView                                     twName;
      @ViewById public TextView                                     twShortMicroelement;

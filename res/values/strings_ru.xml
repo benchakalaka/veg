@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Veg way</string>
-	<string name="list_products">List of Products</string>
-	<string name="your_desire_descr">Your weackneses</string>
-	<string name="microelements">Microelements</string>
+	<string name="app_namess">Veg way</string>
+	<string name="list_products22">List of Products</string>
+	<string name="your_desire_descr22">Your weackneses</string>
+	<string name="microelements22">Microelements</string>
 	
-	<string name="action_settings">settings</string>
+	<string name="action_setting22s">settings</string>
 
 	<string name="skvalen">Сквален</string>
 	<string name="vitamin_c"></string>

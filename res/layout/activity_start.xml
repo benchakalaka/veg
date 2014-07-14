@@ -52,7 +52,7 @@
     	android:textStyle="bold"
     	android:background="@drawable/blue_flat_item"
     	android:textColor="@android:color/white"
-    	android:text="Button" />
+    	android:text="@string/vitamins" />
 
 </LinearLayout>
 
