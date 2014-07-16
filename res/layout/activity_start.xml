@@ -7,6 +7,15 @@
 	android:orientation="vertical"
 	tools:context="com.karpachev.activities.ActivityStart"
 	tools:ignore="MergeRootFrame" >
+	
+	<fragment 
+		android:id="@+id/fragmentt"
+		android:name="com.karpachev.fragments.FogFragment"
+		class="com.karpachev.fragments.FogFragment"
+		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+		/>
+	
 
     <ImageView
     	android:id="@+id/imageView1"

@@ -34,7 +34,7 @@ import android.widget.LinearLayout;
           btnYourWeacknesses.startAnimation(blink2);
           btnMicroelements.startAnimation(blink3);
           // container.addView();
-          startActivity(new Intent(ActivityStart.this, test.class));
+          // startActivity(new Intent(ActivityStart.this, test.class));
      }
 
      @Click void btnMicroelements() {
@@ -48,5 +48,4 @@ import android.widget.LinearLayout;
      @Click void btnYourWeacknesses() {
           startActivity(new Intent(ActivityStart.this, ActivityYourWeacknesses_.class));
      }
-
 }
